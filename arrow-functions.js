@@ -37,3 +37,12 @@ showMessage("this is a message!");
 const sayHello = () => console.log("Hello!");
 sayHello();
 // Returning Multiple Lines
+
+const showHeadingtag = () => (
+    `<h1>
+    this is a heading
+    </h1>
+    `
+)
+
+console.log(showHeadingtag());
