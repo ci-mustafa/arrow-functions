@@ -13,7 +13,13 @@ let myVanillaFunction = addTwoNumber(5, 6)
 console.log(myVanillaFunction)
 
 // Arrow Function With Parameters
+const subTwoNumber = (a, b) => {
+    return a - b
+}
 
+// call the function
+let myArrowFunction = subTwoNumber(4, 6)
+console.log(myArrowFunction)
 // Single Line Arrow Function With Parameters
 
 // Implicit Returns
