@@ -4,6 +4,13 @@
  */
 
 // Vanilla JavaScript Function
+function addTwoNumber(a, b) {
+    return a + b
+}
+
+// call the function
+let myVanillaFunction = addTwoNumber(5, 6)
+console.log(myVanillaFunction)
 
 // Arrow Function With Parameters
 
